@@ -1,5 +1,4 @@
 import streamlit as st
-from PIL import Image
 import qrcode
 
 
@@ -9,11 +8,6 @@ st.markdown("""
     .stButton button {
         float: right;
     }
-    .center {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }    
     </style>
     """, unsafe_allow_html=True)
 
